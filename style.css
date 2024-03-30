@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#nav_bar{
+    position: sticky;
+}
+#foot{
+    width:85%
+}
+#row_1{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.scrollable_div{
+    width: 85%;
+    margin: auto;
+    overflow: hidden;
+}
+.list{
+    overflow: scroll;
+    text-wrap: nowrap;
+}
